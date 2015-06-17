@@ -1,0 +1,7 @@
+NAME="Netrunner Rolling"
+ID=netrunner
+PRETTY_NAME="Netrunner Rolling"
+ANSI_COLOR="1;32"
+HOME_URL="http://www.netrunner.com/"
+SUPPORT_URL="http://forums.netrunner.com"
+BUG_REPORT_URL="https://github.com/netrunner/netrunner-feedback"
