@@ -111,6 +111,7 @@ expanding-icons-taskmanager
 samba-mounter-frameworks-git
 zramswap
 google-talkplugin
+vokoscreen
 
 ## Font
 ttf-droid
@@ -123,7 +124,7 @@ adobe-source-code-pro-fonts
 
 ## Games
 steam-manjaro
-gnuchess
+gnome-chess
 frozen-bubble
 kbreakout
 kdiamond
@@ -204,7 +205,6 @@ libappindicator-gtk3
 libappindicator-sharp
 
 ## KDE Applications
-filelight
 k3b
 kate
 kcalc
@@ -218,8 +218,7 @@ kdegraphics-ksnapshot
 kdegraphics-okular
 kdenlive
 kdeutils-ark
-kdeutils-kwalletmanager
-kdeutils-sweeper
+# kdeutils-kwalletmanager
 kde-servicemenus-rootactions
 konsole
 konversation
@@ -319,4 +318,3 @@ kmediaplayer
 
 # Partition
 partitionmanager
-gparted

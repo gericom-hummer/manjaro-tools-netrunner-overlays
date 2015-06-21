@@ -60,7 +60,9 @@ DialogWidth=560
 
 [Containments][1][Applets][24][Configuration][General]
 customButtonImage=file:///usr/share/pixmaps/homerun.svgz
-favoriteApps=firefox.desktop,kde4-Kontact.desktop,systemsettings.desktop,org.kde.kate.desktop,octopi.desktop
+favoriteApps=firefox.desktop,systemsettings.desktop,org.kde.ksysguard.desktop,vokoscreen.desktop,octopi.desktop
+hiddenApplications=kde4-importwizard.desktop,kde4-pimsettingexporter.desktop,org.kde.ksshaskpass.desktop,org.kde.knetattach.desktop,org.kde.ktplogviewer.desktop
+limitDepth=true
 useCustomButtonImage=true
 
 [Containments][1][Applets][25][Configuration][General]
@@ -195,9 +197,8 @@ DialogWidth=640
 ToolBoxButtonState=topright
 ToolBoxButtonX=1257
 popups=false
-positions=1,10,desktop:/mycomputer.desktop,0,0,desktop:/Readme.desktop,0,1
+positions=1,10,desktop:/Readme.desktop,0,1,desktop:/mycomputer.desktop,0,0
 selectionMarkers=false
-showToolbox=false
 sortMode=-1
 
 [Containments][18][Wallpaper][org.kde.image][General]

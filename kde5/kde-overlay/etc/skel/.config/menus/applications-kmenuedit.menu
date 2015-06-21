@@ -231,7 +231,6 @@
    <Filename>kde4-krfb.desktop</Filename>
    <Filename>kde4-kmix.desktop</Filename>
    <Filename>kde4-karbon.desktop</Filename>
-   <Filename>kde4-okular.desktop</Filename>
    <Filename>avahi-discover.desktop</Filename>
    <Filename>kde4-kwalletmanager.desktop</Filename>
    <Filename>kde4-kgpg.desktop</Filename>
@@ -255,9 +254,12 @@
    <Filename>uxterm.desktop</Filename>
    <Filename>xterm.desktop</Filename>
    <Filename>steam-valve.desktop</Filename>
+   <Filename>kde4-okular.desktop</Filename>
   </Include>
+  <Exclude/>
   <Layout>
    <Merge type="files"/>
+   <Filename>kde4-konqbrowser.desktop</Filename>
    <Filename>kde4-akonadiconsole.desktop</Filename>
    <Filename>kde4-akonaditray.desktop</Filename>
    <Filename>bssh.desktop</Filename>
@@ -276,12 +278,10 @@
    <Filename>kde4-knetattach.desktop</Filename>
    <Filename>kde4-KNode.desktop</Filename>
    <Filename>kde4-korganizer.desktop</Filename>
-   <Filename>kde4-kwalletmanager.desktop</Filename>
    <Filename>libreoffice-draw.desktop</Filename>
    <Filename>libreoffice-math.desktop</Filename>
    <Filename>cups.desktop</Filename>
    <Filename>kde4-marble.desktop</Filename>
-   <Filename>kde4-okular.desktop</Filename>
    <Filename>assistant-qt4.desktop</Filename>
    <Filename>designer-qt4.desktop</Filename>
    <Filename>linguist-qt4.desktop</Filename>
@@ -296,7 +296,6 @@
    <Filename>uxterm.desktop</Filename>
    <Filename>xterm.desktop</Filename>
   </Layout>
-  <Exclude/>
  </Menu>
  <Menu>
   <Name>Office</Name>
@@ -309,7 +308,6 @@
    <Filename>kde4-kaddressbook.desktop</Filename>
    <Filename>libreoffice-draw.desktop</Filename>
    <Filename>kde4-karbon.desktop</Filename>
-   <Filename>kde4-okular.desktop</Filename>
    <Filename>kde4-korganizer.desktop</Filename>
    <Filename>kde4-Kontact.desktop</Filename>
    <Filename>kde4-storageservicemanager.desktop</Filename>
