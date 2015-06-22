@@ -1,7 +1,5 @@
 [Compositing]
 AnimationSpeed=1
-Backend=XRender
-Enabled=true
 GLColorCorrection=false
 GLCore=false
 GLPlatformInterface=glx
@@ -63,14 +61,14 @@ CommandWindowWheel=Scroll
 blurEnabled=true
 contrastEnabled=false
 enforcedecoEnabled=false
-kwin4_effect_fadeEnabled=true
-kwin4_effect_maximizeEnabled=false
-kwin4_effect_translucencyEnabled=false
 screenedgeEnabled=false
 slidingpopupsEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 windowgeometryEnabled=false
+kwin4_effect_fadeEnabled=true
+kwin4_effect_maximizeEnabled=false
+kwin4_effect_translucencyEnabled=false
 
 [Style]
 BorderSize=1
@@ -118,8 +116,10 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
+library=org.kde.oxygen
+theme[$d]
 BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
-library=org.kde.oxygen
+
