@@ -96,6 +96,10 @@ openssh
 samba
 
 ## Netrunner repository packages
+perl-gtk2-appindicator
+perl-gtk2-notify
+perl-gtk2-trayicon
+radiotray
 gmusicbrowser
 kio-sysinfo
 flatzebra
