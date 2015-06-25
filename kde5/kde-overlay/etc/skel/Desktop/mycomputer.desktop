@@ -1,10 +1,22 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
+Categories=KDE;Qt;System;
+Comment[en_US]=
+Comment=
+Exec=konqueror sysinfo://
+GenericName[en_US]=
+GenericName=
+Icon=computer
+MimeType=
+Name[en_US]=My Computer
+Name=My Computer
+OnlyShowIn=KDE;
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
 Type=Application
 Version=1.0
-Name=My Computer
-Exec=konqueror sysinfo://
-Icon=computer
-Terminal=false
-Categories=KDE;Qt;System;
-OnlyShowIn=KDE;
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
