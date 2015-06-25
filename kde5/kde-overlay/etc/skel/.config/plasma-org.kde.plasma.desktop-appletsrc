@@ -202,7 +202,8 @@ selectionMarkers=false
 sortMode=-1
 
 [Containments][18][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/The Wheel.png
+FillMode=2
+Image=file:///usr/share/wallpapers/Netrunner Rolling.png
 SlidePaths=
 height=800
 width=1280
