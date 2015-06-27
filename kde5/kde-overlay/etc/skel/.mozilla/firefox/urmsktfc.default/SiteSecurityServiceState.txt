@@ -1,1 +1,4 @@
+cdn.syndication.twimg.com:HSTS	0	16613	2066517967637,1,0
 services.addons.mozilla.org:HSTS	0	16613	1466912971462,1,0
+www.facebook.com:HSTS	0	16613	1450931448359,1,0
+syndication.twitter.com:HSTS	0	16613	2066517967611,1,0
