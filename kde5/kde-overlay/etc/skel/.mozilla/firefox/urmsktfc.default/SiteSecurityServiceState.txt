@@ -1,6 +1,1 @@
-services.addons.mozilla.org:HSTS	0	16607	1466458238673,1,0
-cdn.syndication.twimg.com:HSTS	0	16607	2066060593479,1,0
-www.facebook.com:HSTS	0	16607	1450474109196,1,0
-addons.cdn.mozilla.net:HSTS	0	16607	1466458238451,1,0
-adblockplus.org:HSTS	0	16607	1466458196375,1,0
-syndication.twitter.com:HSTS	0	16607	2066060628179,1,0
+services.addons.mozilla.org:HSTS	0	16613	1466912971462,1,0

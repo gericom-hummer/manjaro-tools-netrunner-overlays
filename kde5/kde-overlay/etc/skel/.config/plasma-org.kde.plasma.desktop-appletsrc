@@ -61,7 +61,6 @@ DialogWidth=560
 [Containments][1][Applets][24][Configuration][General]
 customButtonImage=file:///usr/share/pixmaps/homerun.svgz
 favoriteApps=firefox.desktop,systemsettings.desktop,org.kde.ksysguard.desktop,vokoscreen.desktop,octopi.desktop
-hiddenApplications=kde4-importwizard.desktop,kde4-pimsettingexporter.desktop,org.kde.ksshaskpass.desktop,org.kde.knetattach.desktop,org.kde.ktplogviewer.desktop
 limitDepth=true
 useCustomButtonImage=true
 

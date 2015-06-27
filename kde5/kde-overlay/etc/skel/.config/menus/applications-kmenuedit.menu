@@ -65,9 +65,13 @@
    <Filename>kde4-contactthemeeditor.desktop</Filename>
    <Filename>kde4-knetattach.desktop</Filename>
    <Filename>kde4-konqbrowser.desktop</Filename>
+   <Filename>kde4-pimsettingexporter.desktop</Filename>
    <Filename>kde4-ktp-log-viewer.desktop</Filename>
+   <Filename>org.kde.knetattach.desktop</Filename>
    <Filename>kde4-headerthemeeditor.desktop</Filename>
+   <Filename>org.kde.ktplogviewer.desktop</Filename>
    <Filename>kde4-KNode.desktop</Filename>
+   <Filename>org.kde.ksshaskpass.desktop</Filename>
    <Filename>kde4-mboximporter.desktop</Filename>
    <Filename>kde4-KMail2.desktop</Filename>
    <Filename>steam.desktop</Filename>
@@ -91,11 +95,8 @@
    <Filename>kde4-keditbookmarks.desktop</Filename>
    <Filename>javaws.desktop</Filename>
    <Filename>kde5-nm-connection-editor.desktop</Filename>
-   <Filename>ktp-log-viewer.desktop</Filename>
-   <Filename>org.kde.knetattach.desktop</Filename>
-   <Filename>org.kde.konversation.desktop</Filename>
-   <Filename>kde4-pimsettingexporter.desktop</Filename>
-   <Filename>org.kde.ksshaskpass.desktop</Filename>
+   <Filename>ktp-log-viewer.desktop</Filename>   
+   <Filename>org.kde.konversation.desktop</Filename>   
    <Filename>org.kde.ktpcontactlist.desktop</Filename>
    <Filename>skype.desktop</Filename>
    <Filename>thunderbird.desktop</Filename>
@@ -111,7 +112,7 @@
   <Exclude>
    <Filename>qv4l2.desktop</Filename>
    <Filename>kde4-k3b.desktop</Filename>
-   <Filename>kde4-kmix.desktop</Filename>
+   <Filename>kmix.desktop</Filename>
   </Exclude>
   <Layout>
    <Merge type="files"/>
@@ -166,6 +167,7 @@
   <Name>Utilities</Name>
   <Exclude>
    <Filename>kde4-nepomukbackup.desktop</Filename>
+   <Filename>kde4-importwizard.desktop</Filename>
    <Filename>kde4-nepomukcleaner.desktop</Filename>
    <Filename>kde4-kalarm.desktop</Filename>
    <Filename>kde4-okular.desktop</Filename>
@@ -180,8 +182,7 @@
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
-   <Merge type="files"/>
-   <Filename>kde4-importwizard.desktop</Filename>
+   <Merge type="files"/>   
    <Filename>kde4-ark.desktop</Filename>
    <Filename>kde4-kate.desktop</Filename>
    <Filename>kde4-kcalc.desktop</Filename>
@@ -303,6 +304,7 @@
    <Filename>kde4-contactthemeeditor.desktop</Filename>
    <Filename>kde4-headerthemeeditor.desktop</Filename>
    <Filename>kde4-mboximporter.desktop</Filename>
+   <Filename>kde4-pimsettingexporter.desktop</Filename>
    <Filename>libreoffice-installer.desktop</Filename>
    <Filename>kde4-KMail2.desktop</Filename>
    <Filename>kde4-kaddressbook.desktop</Filename>

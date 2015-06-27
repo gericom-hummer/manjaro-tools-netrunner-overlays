@@ -25,7 +25,7 @@ if (freeEdges["bottom"] == true) {
     panel.location = "top";
 }
 
-panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 28
+panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 29
 
 var kicker = panel.addWidget("org.kde.plasma.kicker")
 kicker.currentConfigGroup = ["Shortcuts"]
