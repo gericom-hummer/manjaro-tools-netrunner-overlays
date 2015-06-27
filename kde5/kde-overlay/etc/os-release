@@ -1,7 +1,5 @@
-NAME="Manjaro Linux"
-ID=manjaro
-PRETTY_NAME="Manjaro Linux"
+NAME="Netrunner Rolling"
+ID=netrunner rolling
+PRETTY_NAME="Netrunner Rolling Edition"
 ANSI_COLOR="1;32"
-HOME_URL="http://www.manjaro.org/"
-SUPPORT_URL="http://www.manjaro.org/"
-BUG_REPORT_URL="http://bugs.manjaro.org/"
+HOME_URL="http://www.netrunner.com/"
