@@ -81,6 +81,7 @@
    <Filename>kde4-Kppp.desktop</Filename>
    <Filename>kde4-storageservicemanager.desktop</Filename>
    <Filename>steam-valve.desktop</Filename>
+   <Filename>steam-system.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>kde4-marble.desktop</Filename>

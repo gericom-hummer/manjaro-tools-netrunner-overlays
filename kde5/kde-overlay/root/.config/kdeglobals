@@ -138,13 +138,13 @@ Name=Oxygen Cold
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
-font=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-menuFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+fixed=Oxygen Mono,9,-1,5,50,0,0,0,0,0
+font=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-toolBarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-widgetStyle=oxygen
+smallestReadableFont=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
+widgetStyle=carbon
 
 [Icons]
 Theme=oxygen
@@ -262,7 +262,7 @@ Size=22
 [WM]
 activeBackground=96,148,207
 activeBlend=75,71,67
-activeFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+activeFont=Oxygen-Sans,10,-1,5,50,0,0,0,0,0
 activeForeground=255,255,255
 inactiveBackground=224,223,222
 inactiveBlend=75,71,67

@@ -140,11 +140,7 @@ kdegames-kmahjongg
 
 ## Package management
 octopi
-octopi-notifier-frameworks
-octopi-cachecleaner
-octopi-repoeditor
-octopi-pacmanhelper
-pacmanlogviewer
+muon
 
 ## Java
 jdk8-openjdk
@@ -299,6 +295,8 @@ gimp
 skype
 grub-customizer
 python-xdg
+KERNEL-virtualbox-host-modules
+virtualbox
 
 ## Optional dependency for audacious
 audacious-winamp-theme

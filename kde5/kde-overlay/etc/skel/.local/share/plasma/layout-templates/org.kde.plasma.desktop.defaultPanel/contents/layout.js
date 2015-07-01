@@ -25,7 +25,7 @@ if (freeEdges["bottom"] == true) {
     panel.location = "top";
 }
 
-panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 29
+panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 30
 
 var kicker = panel.addWidget("org.kde.plasma.kicker")
 kicker.currentConfigGroup = ["Shortcuts"]
@@ -33,7 +33,7 @@ kicker.writeConfig("global", "Alt+F1")
 
 kicker.currentConfigGroup = ["General"]
 kicker.writeConfig("customButtonImage", "file:///usr/share/pixmaps/homerun.svgz")
-kicker.writeConfig("favoriteApps", "firefox.desktop,kde4-Kontact.desktop,systemsettings.desktop,org.kde.kate.desktop,octopi.desktop")
+kicker.writeConfig("favoriteApps", "firefox.desktop,systemsettings.desktop,org.kde.ksysguard.desktop,octopi.desktop")
 kicker.writeConfig("limitDepth", true)
 kicker.writeConfig("useCustomButtonImage", true)
 
@@ -53,8 +53,9 @@ var pvolumemixer = panel.addWidget("org.kde.plasma.volume")
 
 var systray = panel.addWidget("org.kde.plasma.systemtray")
 systray.currentConfigGroup = ["General"]
-systray.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet")
-systray.writeConfig("hiddenItems","org.kde.plasma.clipboard,KMix,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet")
+systray.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.muonnotifier")
+systray.writeConfig("hardwareControlShown","false")
+systray.writeConfig("hiddenItems","org.kde.plasma.clipboard,KMix,kmix,KDE Daemon,org.kde.ktp-contactlist")
 systray.writeConfig("shownItems", "transmission")
 
 panel.addWidget("org.kde.plasma.digitalclock")

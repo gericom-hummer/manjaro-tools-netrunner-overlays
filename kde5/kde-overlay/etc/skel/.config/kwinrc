@@ -1,7 +1,7 @@
 [Compositing]
 AnimationSpeed=1
 GLColorCorrection=false
-GLCore=false
+GLCore=true
 GLPlatformInterface=glx
 GLPreferBufferSwap=a
 GLTextureFilter=2
@@ -59,11 +59,12 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 blurEnabled=true
-contrastEnabled=false
+contrastEnabled=true
 enforcedecoEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_windowapertureEnabled=false
 screenedgeEnabled=false
 slidingpopupsEnabled=false
 synchronizeskipswitcherEnabled=false
@@ -120,4 +121,5 @@ BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
-library=org.kde.oxygen
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Gnome3
