@@ -245,7 +245,7 @@ icoutils                     # thumbnailers for MS files
 kdegraphics-svgpart          # thumbailers for SVG files
 kdegraphics-thumbnailers     # thumbnailers for various graphics files
 kdemultimedia-ffmpegthumbs   # thumbnailers for video files
-kdemultimedia-mplayerthumbs  # thumbnailers for video files
+# kdemultimedia-mplayerthumbs  # thumbnailers for video files
 kdesdk-thumbnailers          # thumbnailers for development files
 konsolepart4                 # open terminal in context menu 
 
@@ -276,6 +276,7 @@ inxi
 firefox-kde
 flashplugin
 manjaro-settings-manager
+pavucontrol
 p7zip
 screenfetch
 thunderbird-kde

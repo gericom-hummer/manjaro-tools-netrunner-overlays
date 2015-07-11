@@ -44,7 +44,7 @@ wallpaperplugin=org.kde.image
 ToolBoxButtonState=topright
 ToolBoxButtonX=1257
 popups=false
-positions=1,9,desktop:/mycomputer.desktop,0,0,desktop:/Readme.desktop,0,1
+positions=1,13,desktop:/calamares.desktop,0,2,desktop:/mycomputer.desktop,0,0,desktop:/Readme.desktop,0,1
 pressToMove=true
 selectionMarkers=false
 showToolbox=false
@@ -54,10 +54,10 @@ sortMode=-1
 FillMode=2
 Image=file:///usr/share/wallpapers/Netrunner Rolling.png
 SlidePaths=
-height=800
-width=1280
+height=900
+width=1600
 
-[Containments][62]
+[Containments][19]
 activityId=
 formfactor=2
 immutability=1
@@ -66,116 +66,109 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][62][Applets][63]
+[Containments][19][Applets][20]
 immutability=1
 plugin=org.kde.plasma.kicker
 
-[Containments][62][Applets][63][Configuration][General]
+[Containments][19][Applets][20][Configuration][General]
 customButtonImage=file:///usr/share/pixmaps/homerun.svgz
 favoriteApps=firefox.desktop,systemsettings.desktop,org.kde.ksysguard.desktop,octopi.desktop
 limitDepth=true
 useCustomButtonImage=true
 
-[Containments][62][Applets][63][Configuration][Shortcuts]
+[Containments][19][Applets][20][Configuration][Shortcuts]
 global=Alt+F1
 
-[Containments][62][Applets][63][Shortcuts]
+[Containments][19][Applets][20][Shortcuts]
 global=Alt+F1
 
-[Containments][62][Applets][64]
+[Containments][19][Applets][21]
 immutability=1
 plugin=org.kde.plasma.expandingiconstaskmanager
 
-[Containments][62][Applets][64][Configuration][Configuration][General]
-launchers=file:///usr/share/applications/firefox.desktop,file:///usr/share/applications/kde4/dolphin.desktop?wmClass=Dolphin
+[Containments][19][Applets][21][Configuration][Configuration][General]
+launchers=file:///usr/share/applications/kde4/dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop
 showOnlyCurrentDesktop=true
 
-[Containments][62][Applets][64][Configuration][General]
-launchers=file:///usr/share/applications/firefox.desktop,file:///usr/share/applications/kde4/dolphin.desktop?wmClass=Dolphin
+[Containments][19][Applets][21][Configuration][General]
+launchers=file:///usr/share/applications/kde4/dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop
 showOnlyCurrentDesktop=true
 
-[Containments][62][Applets][65]
+[Containments][19][Applets][22]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][62][Applets][65][Configuration][General]
+[Containments][19][Applets][22][Configuration][General]
 applicationName=Yakuake
 genericName=Drop-down Terminal
 iconName=yakuake
 url=/usr/share/applications/kde4/yakuake.desktop
 
-[Containments][62][Applets][66]
+[Containments][19][Applets][23]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][62][Applets][67]
+[Containments][19][Applets][24]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][62][Applets][67][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][62][Applets][67][Configuration][Containments][71]
+[Containments][19][Applets][24][Configuration][Containments][28]
 formfactor=2
 location=4
 
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][72]
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][29]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][73]
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][30]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][74]
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][31]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][75]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][76]
-immutability=1
-plugin=org.kde.plasma.battery
-
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][77]
-immutability=1
-plugin=org.kde.ktp-contactlist
-
-[Containments][62][Applets][67][Configuration][Containments][71][Applets][78]
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][32]
 immutability=1
 plugin=org.kde.muonnotifier
 
-[Containments][62][Applets][67][Configuration][General]
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][33]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][34]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][19][Applets][24][Configuration][Containments][28][Applets][35]
+immutability=1
+plugin=org.kde.ktp-contactlist
+
+[Containments][19][Applets][24][Configuration][General]
 extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.muonnotifier
 hardwareControlShown=false
 hiddenItems=org.kde.plasma.clipboard,KMix,kmix,KDE Daemon,org.kde.ktp-contactlist
 shownItems=transmission
 
-[Containments][62][Applets][68]
+[Containments][19][Applets][25]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][62][Applets][69]
+[Containments][19][Applets][26]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][62][Applets][70]
+[Containments][19][Applets][27]
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][62][Applets][70][Configuration][General]
+[Containments][19][Applets][27][Configuration][General]
 applicationName=Krunner
 iconName=applications-system
 url=/usr/share/applications/krunner.desktop
 
-[Containments][62][General]
-AppletOrder=63;64;65;66;67;68;69;70
-
-[Containments][79][Applets][84][Configuration][General]
-extraItems=org.kde.plasma.devicenotifier\\,org.kde.plasma.battery\\,org.kde.plasma.networkmanagement\\,org.kde.plasma.clipboard\\,org.kde.plasma.printmanager\\,org.kde.ktp-contactlist\\,org.kde.plasma.ktplegacypresenceapplet
+[Containments][19][General]
+AppletOrder=20;21;22;23;24;25;26;27
 
 [Containments][86][Applets][91][Configuration][General]
 extraItems=org.kde.plasma.devicenotifier\\,org.kde.plasma.battery\\,org.kde.plasma.networkmanagement\\,org.kde.plasma.clipboard\\,org.kde.plasma.printmanager\\,org.kde.ktp-contactlist\\,org.kde.plasma.ktplegacypresenceapplet
