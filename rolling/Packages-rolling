@@ -202,7 +202,6 @@ k3b
 kate
 kcalc
 kdebase-dolphin
-kdesdk-dolphin-plugins
 kdebase-kdepasswd
 kdebase-keditbookmarks
 kdebase-kfind
@@ -210,7 +209,6 @@ kdebase-konqueror
 kdeedu-marble
 kdegraphics-ksnapshot
 kdegraphics-okular
-kdenetwork-filesharing
 kdenlive
 kdeutils-ark
 # kdeutils-kwalletmanager
