@@ -1,14 +1,5 @@
 [Compositing]
-AnimationSpeed=1
-GLColorCorrection=false
-GLCore=true
-GLPlatformInterface=glx
-GLPreferBufferSwap=a
 GLTextureFilter=1
-HiddenPreviews=5
-OpenGLIsUnsafe=false
-UnredirectFullscreen=false
-XRenderSmoothScale=false
 
 [Desktops]
 Number=1
