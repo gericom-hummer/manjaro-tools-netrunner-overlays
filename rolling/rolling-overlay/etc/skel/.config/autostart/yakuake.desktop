@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Categories=Qt;KDE;System;TerminalEmulator;
 Comment[en_US]=A drop-down terminal emulator based on KDE Konsole technology.
