@@ -1,5 +1,7 @@
 [Compositing]
+AnimationSpeed=1
 GLTextureFilter=1
+
 
 [Desktops]
 Number=1

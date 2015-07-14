@@ -176,6 +176,7 @@ plasma-workspace
 powerdevil
 systemsettings
 baloo-frameworks  # optional for plasma-desktop
+systemd-kcm
 
 ## Themes
 gnome-icon-theme
