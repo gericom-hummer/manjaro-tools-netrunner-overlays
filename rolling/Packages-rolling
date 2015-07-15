@@ -167,6 +167,7 @@ kscreen
 ksshaskpass
 ksysguard
 kwin
+libqtxdg
 milou
 oxygen
 oxygen-cursors
@@ -177,6 +178,7 @@ powerdevil
 systemsettings
 baloo-frameworks  # optional for plasma-desktop
 systemd-kcm
+xdg-user-dirs-gtk
 
 ## Themes
 gnome-icon-theme
