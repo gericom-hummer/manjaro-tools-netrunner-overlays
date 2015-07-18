@@ -1,35 +1,12 @@
-### Netrunner Rolling Packages
-
-## Xorg and Other Packages
-libdnet
->x86_64 lib32-libxft
-mesa-demos
->x86_64 lib32-mesa-demos
-uriparser
-virtualgl
->x86_64 lib32-virtualgl
-xf86-input-acecad
-xf86-input-aiptek
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-joystick
-xf86-input-keyboard
-xf86-input-mouse
-xf86-input-synaptics
-xf86-input-void
-xf86-input-wacom
-xinetd
-xorg-server
-xorg-server-utils
-xorg-twm
-xorg-utils
-xorg-xinit
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
 
 ## Network
-netctl
-networkmanager
+>systemd networkmanager
+>openrc networkmanager-openrc
 networkmanager-dispatcher-ntpd
-openresolv
+>systemd openresolv
 
 ## Libraries for Sound/Audio/Video
 ffmpeg
@@ -43,9 +20,9 @@ gstreamer0.10-base-plugins
 gstreamer0.10-good-plugins
 gstreamer0.10-ugly-plugins
 libcanberra
->x86_64 lib32-libcanberra
+>multilib lib32-libcanberra
 libcanberra-pulse
->x86_64 lib32-libcanberra-pulse
+>multilib lib32-libcanberra-pulse
 libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
@@ -80,13 +57,13 @@ binutils
 bison
 fakeroot
 flex
->x86_64 gcc-multilib
->i686 gcc
+gcc
+>multilib gcc-multilib
 libtool
 m4
 make
 patch
->x86_64 lib32-flex
+>multilib lib32-flex
 # Extra packages for AUR support
 git
 patchutils
@@ -117,10 +94,10 @@ zramswap
 google-talkplugin
 vokoscreen
 
-## Font
+## Fonts
 ttf-droid
 ttf-oxygen  # oficial KDE font
-ttf-ubuntu-font-family
+cantarell-fonts
 ttf-lohit-fonts
 adobe-source-serif-pro-fonts
 adobe-source-sans-pro-fonts
@@ -144,30 +121,42 @@ muon
 
 ## Java
 jdk8-openjdk
+jre8-openjdk-headless
+jre8-openjdk
 icedtea-web
 
 ## Printing
-manjaro-printer
+cups
+cups-pdf
+cups-pk-helper
+ghostscript
+gsfonts
+hplip
+python-gobject # optional for hplip
+python-pyqt4   # optional for hplip
+splix
 system-config-printer
 
 ## Display manager
-sddm
+>systemd sddm
+>openrc sddm-consolekit
 sddm-kcm
 
-## Plasma5 
+## Plasma5
 bluedevil
 breeze
 drkonqi
 kde-gtk-config
 kdeplasma-addons
 khelpcenter
+kinfocenter
 kio-extras
 kmenuedit
 kscreen
 ksshaskpass
 ksysguard
 kwin
-libqtxdg
+kwrited
 milou
 oxygen
 oxygen-cursors
@@ -176,9 +165,6 @@ plasma-nm
 plasma-workspace
 powerdevil
 systemsettings
-baloo-frameworks  # optional for plasma-desktop
-systemd-kcm
-xdg-user-dirs-gtk
 
 ## Themes
 gnome-icon-theme
@@ -190,12 +176,14 @@ carbon-gtk3
 
 ## Support for KDE4 applications theming
 breeze-kde4
+oxygen-kde4
 carbon-qt4
 carbon-qt5
 
+
 ## Better systray/notifications support
 sni-qt  # A Qt plugin that enables tray icons in qt4 applications
->x86_64 lib32-sni-qt
+>multilib lib32-sni-qt
 libappindicator-gtk2
 libappindicator-gtk3
 libappindicator-sharp
@@ -210,6 +198,7 @@ kdebase-keditbookmarks
 kdebase-kfind
 kdebase-konqueror
 kdeedu-marble
+kdeconnect-git
 kdegraphics-ksnapshot
 kdegraphics-okular
 # kdenetwork-filesharing
@@ -240,11 +229,6 @@ kdepim-kresources
 ## KDE Telepathy
 telepathy-kde-meta
 
-
-## KDE Connect
-kdeconnect-git
-
-
 ## Thumbnailers and terminal for dolphin
 icoutils                     # thumbnailers for MS files
 kdegraphics-svgpart          # thumbailers for SVG files
@@ -252,7 +236,7 @@ kdegraphics-thumbnailers     # thumbnailers for various graphics files
 kdemultimedia-ffmpegthumbs   # thumbnailers for video files
 # kdemultimedia-mplayerthumbs  # thumbnailers for video files
 kdesdk-thumbnailers          # thumbnailers for development files
-konsolepart4                 # open terminal in context menu 
+konsolepart4                 # open terminal in context menu
 
 ## Optional dependencies for k3b
 cdparanoia    # for cd ripping support
@@ -260,14 +244,14 @@ cdrdao        # for disk-at-once (DAO) mode support
 dvd+rw-tools  # for dvd burning support
 emovix        # for bootable multimedia cd/dvd support
 transcode     # for advanced mpeg conversion support
-vcdimager     # for vcd burning support 
+vcdimager     # for vcd burning support
 
 ## Optional dependencies for kdenlive
 cdrkit           # for creation of DVD ISO images
 dvdauthor        # for creation of DVD
 dvgrab           # for firewire capture
 recordmydesktop  # for screen capture
-xine-lib         # for DVD preview 
+xine-lib         # for DVD preview
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
@@ -284,16 +268,15 @@ manjaro-settings-manager
 pavucontrol
 p7zip
 screenfetch
+>systemd systemd-kcm
 thunderbird-kde
 vlc
 yakuake
 transmission-qt
 gimp
 skype
-grub-customizer
-python-xdg
-KERNEL-virtualbox-host-modules
 virtualbox
+KERNEL-virtualbox-host-modules
 
 ## Optional dependency for audacious
 audacious-winamp-theme
@@ -315,7 +298,8 @@ calligra-krita
 #calligra-words
 
 ## KDE Frameworks
-kmediaplayer 
+kmediaplayer
+kactivities-frameworks
 
 # Partition
 partitionmanager
