@@ -1,0 +1,21 @@
+Enlightenment Breeze
+Desktop theme
+--------------------
+
+Based on Breeze Dark
+
+# Colors
+- Soft Orange http://www.colorhexa.com/f2b966
+- Very dark gray/black http://www.colorhexa.com/121212 (Original: Very dark blue http://www.colorhexa.com/1d2227)
+- Very dark gray/black http://www.colorhexa.com/1a1a1a (Original: Very dark grayish blue http://www.colorhexa.com/3b4045)
+
+
+# Changes
+- removed borders (no border padding) in tasks.svgz
+- removed repeat center background
+- changed focus graphic element
+- removed normal, hover, attention elements (Android buttons style)
+
+- changed panel background color (grey) and opacity (0.7) in tranclucent/widgets/panel-background.svgz
+- changed top and bottom margins to 2px inside tranclucent/widgets/panel-background.svgz and widgets/panel-background.svgz
+- changed widgets background color in widgets/background.svgz
