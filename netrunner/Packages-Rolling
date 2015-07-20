@@ -97,6 +97,7 @@ vokoscreen
 ## Fonts
 ttf-droid
 ttf-oxygen  # oficial KDE font
+ttf-ubuntu-font-family
 cantarell-fonts
 ttf-lohit-fonts
 adobe-source-serif-pro-fonts

@@ -9,8 +9,8 @@ style "user-font"
 widget_class "*" style "user-font"
 gtk-font-name="DejaVu Sans Book 9"
 gtk-theme-name="carbon-gtk"
-gtk-icon-theme-name="oxygen"
-gtk-fallback-icon-theme="gnome"
+gtk-icon-theme-name="Moka"
+gtk-fallback-icon-theme="Flattr"
 gtk-toolbar-style=GTK_TOOLBAR_ICONS
 gtk-menu-images=1
 gtk-button-images=1

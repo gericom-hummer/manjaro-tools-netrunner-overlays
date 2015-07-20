@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=1
+AnimationSpeed=2
 GLTextureFilter=1
 
 
@@ -52,7 +52,7 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 blurEnabled=true
-contrastEnabled=true
+contrastEnabled=false
 enforcedecoEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_maximizeEnabled=false
@@ -115,4 +115,4 @@ ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Carbon
+theme=__aurorae__svg__FormaN
