@@ -84,8 +84,13 @@ burgerspace
 gltron
 # user-manager
 kinfocenter
-netrunner-artwork-plasma5
+netrunner-rolling-wallpapers
+netrunner-artwork-firefox
+netrunner-artwork-skype
+netrunner-artwork-thunderbird
 netrunner-preload
+netrunner-rolling-artwork
+netrunner-rolling-systemsettings
 plymouth-theme-netrunner
 plasma-volume-control-git
 expanding-icons-taskmanager
@@ -169,6 +174,10 @@ systemsettings
 
 ## Themes
 gnome-icon-theme
+netrunner-flattr-icons
+netrunner-moka-icons
+netrunner-windows-cursors
+netrunner-plasma-themes
 
 ## GTK Themes
 gnome-themes-standard # Adwaita theme
