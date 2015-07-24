@@ -73,31 +73,50 @@ openssh
 samba
 
 ## Netrunner repository packages
-perl-gtk2-appindicator
-perl-gtk2-notify
-perl-gtk2-trayicon
-radiotray
-gmusicbrowser
-kio-sysinfo
+audacious-winamp-theme
+aurorae-theme-carbon
+aurorae-theme-forman
+aurorae-theme-gnome3
+# aurorae-theme-metrodark
+# aurorae-theme-win7
 flatzebra
 burgerspace
-gltron
-# user-manager
-kinfocenter
-netrunner-rolling-wallpapers
-netrunner-artwork-firefox
-netrunner-artwork-skype
-netrunner-artwork-thunderbird
-netrunner-preload
-netrunner-rolling-artwork
-netrunner-rolling-systemsettings
-plymouth-theme-netrunner
-plasma-volume-control-git
+carbon-gtk2
+carbon-gtk3
+carbon-qt4
+carbon-qt5
+# desktop-theme-diamond
+desktop-theme-eclipse
+desktop-theme-enlightenment
+# desktop-theme-gnome-shell-kde
+# desktop-theme-orange-lighteneng
+# desktop-theme-sevenfield
 expanding-icons-taskmanager
-samba-mounter-frameworks-git
-zramswap
+gltron
+gmusicbrowser
 google-talkplugin
+kinfocenter
+kio-sysinfo
+netrunner-artwork-firefox-2015.06
+netrunner-artwork-skype-2015.06
+netrunner-artwork-sounds-2015.06
+netrunner-artwork-thunderbird-2015.06
+netrunner-flattr-icons
+netrunner-moka-icons
+netrunner-rolling-default-settings-2015.06
+# netrunner-rolling-wallpapers-2014-04
+netrunner-rolling-wallpapers-2014.09
+netrunner-rolling-wallpapers-2015.06
+netrunner-windows-cursors
+perl-gtk2-appindicator
+perl-gtk2-notify
+plasma-volume-control-git
+plymouth-theme-netrunner
+radiotray
+samba-mounter-frameworks-git
+user-manager
 vokoscreen
+zramswap
 
 ## Fonts
 ttf-droid
@@ -174,22 +193,13 @@ systemsettings
 
 ## Themes
 gnome-icon-theme
-netrunner-flattr-icons
-netrunner-moka-icons
-netrunner-windows-cursors
-netrunner-plasma-themes
 
 ## GTK Themes
 gnome-themes-standard # Adwaita theme
-carbon-gtk2
-carbon-gtk3
 
 ## Support for KDE4 applications theming
 breeze-kde4
 oxygen-kde4
-carbon-qt4
-carbon-qt5
-
 
 ## Better systray/notifications support
 sni-qt  # A Qt plugin that enables tray icons in qt4 applications
@@ -197,6 +207,7 @@ sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 libappindicator-gtk2
 libappindicator-gtk3
 libappindicator-sharp
+perl-gtk2-trayicon
 
 ## KDE Applications
 k3b
@@ -211,7 +222,7 @@ kdeedu-marble
 kdeconnect-git
 kdegraphics-ksnapshot
 kdegraphics-okular
-# kdenetwork-filesharing
+kdenetwork-filesharing
 kdenlive
 kdeutils-ark
 # kdeutils-kwalletmanager
@@ -287,9 +298,6 @@ gimp
 skype
 virtualbox
 KERNEL-virtualbox-host-modules
-
-## Optional dependency for audacious
-audacious-winamp-theme
 
 ## Office
 libreoffice-fresh
