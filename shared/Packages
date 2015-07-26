@@ -105,6 +105,8 @@ btrfs-progs
 dmraid
 dosfstools
 ecryptfs-utils
+hfsprogs
+
 >openrc hdparm-openrc
 >systemd hdparm
 nilfs-utils
@@ -115,7 +117,7 @@ sdparm
 squashfs-tools
 smartmontools
 testdisk
-
+zfs-utils
 ## Network
 b43-fwcutter
 crda
@@ -144,4 +146,4 @@ zd1211-firmware
 >systemd tlp
 
 ## ucode for new cpus
-intel-ucode
+# intel-ucode
