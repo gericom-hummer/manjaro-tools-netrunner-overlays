@@ -1,5 +1,5 @@
 
-Welcome to Netrunner Linux !
+Welcome to Netrunner Rolling !
 
 To start the system enter 'start and press <return>
 

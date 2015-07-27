@@ -106,7 +106,6 @@ dmraid
 dosfstools
 ecryptfs-utils
 hfsprogs
-
 >openrc hdparm-openrc
 >systemd hdparm
 nilfs-utils
@@ -117,7 +116,6 @@ sdparm
 squashfs-tools
 smartmontools
 testdisk
-zfs-utils
 ## Network
 b43-fwcutter
 crda
