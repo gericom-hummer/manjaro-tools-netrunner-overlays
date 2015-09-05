@@ -20,9 +20,7 @@ mesa-demos
 >multilib lib32-mesa-demos
 
 ## Desktop Utils
-python-xdg
 xdg-user-dirs
-# xdg-user-dirs-gtk
 xdg-utils
 xdg-su
 

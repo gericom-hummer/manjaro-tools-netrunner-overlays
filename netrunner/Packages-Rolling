@@ -7,6 +7,8 @@
 >openrc networkmanager-openrc
 networkmanager-dispatcher-ntpd
 >systemd openresolv
+openssh
+samba
 
 ## Libraries for Sound/Audio/Video
 ffmpeg
@@ -44,10 +46,9 @@ gvfs-smb
 gvfs-mtp
 gvfs-afc
 gvfs
-open-fuse-iso
+# open-fuse-iso
 android-tools
 android-udev
-kio-mtp
 
 ## AUR Support/Development
 # Missing base-devel packages
@@ -69,57 +70,6 @@ git
 patchutils
 svn
 yaourt
-openssh
-samba
-
-## Netrunner repository packages
-audacious-winamp-theme
-aurorae-theme-carbon
-aurorae-theme-forman
-aurorae-theme-gnome3
-# aurorae-theme-metrodark
-# aurorae-theme-win7
-flatzebra
-burgerspace
-carbon-gtk2
-carbon-gtk3
-carbon-qt4
-carbon-qt5
-# desktop-theme-diamond
-desktop-theme-eclipse
-desktop-theme-enlightenment
-# desktop-theme-gnome-shell-kde
-# desktop-theme-orange-lighteneng
-# desktop-theme-sevenfield
-expanding-icons-taskmanager
-gltron
-gmusicbrowser-netrunner
-google-talkplugin
-kdeconnect-git
-kinfocenter
-kio-sysinfo
-netrunner-artwork-firefox-2015.06
-netrunner-artwork-skype-2015.06
-netrunner-artwork-sounds-2015.06
-netrunner-artwork-thunderbird-2015.06
-netrunner-flattr-icons
-netrunner-moka-icons
-netrunner-rolling-default-settings-2015.09
-netrunner-rolling-system-settings-2015.09
-# netrunner-rolling-wallpapers-2014-04
-netrunner-rolling-wallpapers-2014.09
-netrunner-rolling-wallpapers-2015.06
-netrunner-windows-cursors
-netrunner-whiteclassicia-cursors
-perl-gtk2-appindicator
-perl-gtk2-notify
-plasma-volume-control-git
-plymouth-theme-netrunner
-radiotray
-samba-mounter-frameworks-git
-user-manager
-vokoscreen
-zramswap
 
 ## Fonts
 ttf-droid
@@ -176,6 +126,7 @@ breeze
 drkonqi
 kde-gtk-config
 kdeplasma-addons
+kgamma5
 khelpcenter
 kinfocenter
 kio-extras
@@ -183,6 +134,8 @@ kmenuedit
 kscreen
 ksshaskpass
 ksysguard
+kwallet-pam
+kwayland-integration
 kwin
 kwrited
 milou
@@ -190,12 +143,15 @@ oxygen
 oxygen-cursors
 plasma-desktop
 plasma-nm
+plasma-pa
 plasma-workspace
 powerdevil
 systemsettings
+# user-manager
 
 ## Themes
 gnome-icon-theme
+>systemd plymouth-theme-netrunner
 
 ## GTK Themes
 gnome-themes-standard # Adwaita theme
@@ -213,53 +169,47 @@ libappindicator-sharp
 perl-gtk2-trayicon
 
 ## KDE Applications
+ark
+dolphin
+dolphin-plugins
+ffmpegthumbs
 k3b
 kate
 kcalc
-kdebase-dolphin
 kdebase-kdepasswd
 kdebase-keditbookmarks
 kdebase-kfind
 kdebase-konqueror
-kdeedu-marble
 kdegraphics-ksnapshot
 kdegraphics-okular
 kdenetwork-filesharing
 kdenlive
-kdeutils-ark
-# kdeutils-kwalletmanager
 kde-servicemenus-rootactions
 konsole
 konversation
-kmix
+kwalletmanager
 ksuperkey
+marble
 gwenview
 print-manager
 skanlite
 
 ## KDE PIM
-kdepim-akonadiconsole
-kdepim-console
-kdepim-kaddressbook
-kdepim-kalarm
-kdepim-kmail
-kdepim-knode
-kdepim-knotes
-kdepim-kontact
-kdepim-korganizer
-kdepim-kresources
+akonadiconsole
+kaddressbook
+kalarm
+kmail
+knotes
+konsolekalendar
+kontact
+korganizer
 
 ## KDE Telepathy
 telepathy-kde-meta
-
-## Thumbnailers and terminal for dolphin
-icoutils                     # thumbnailers for MS files
-kdegraphics-svgpart          # thumbailers for SVG files
-kdegraphics-thumbnailers     # thumbnailers for various graphics files
-kdemultimedia-ffmpegthumbs   # thumbnailers for video files
-# kdemultimedia-mplayerthumbs  # thumbnailers for video files
-kdesdk-thumbnailers          # thumbnailers for development files
-konsolepart4                 # open terminal in context menu
+telepathy-gabble
+telepathy-haze
+telepathy-idle
+telepathy-rakia
 
 ## Optional dependencies for k3b
 cdparanoia    # for cd ripping support
@@ -274,7 +224,7 @@ cdrkit           # for creation of DVD ISO images
 dvdauthor        # for creation of DVD
 dvgrab           # for firewire capture
 recordmydesktop  # for screen capture
-xine-lib         # for DVD preview
+xine-ui         # for DVD preview
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
@@ -282,24 +232,24 @@ qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Applications
 audacious
-cheese
+gimp
 imagewriter
-inxi
 firefox-kde
 flashplugin
-manjaro-settings-manager
+#manjaro-settings-manager
+kcm-msm
+#netrunner-welcome
 pavucontrol
 p7zip
 screenfetch
+skype
 >systemd systemd-kcm
 thunderbird-kde
-vlc
-yakuake
 transmission-qt
-gimp
-skype
 virtualbox
 KERNEL-virtualbox-host-modules
+vlc
+yakuake
 
 ## Office
 libreoffice-fresh
@@ -323,3 +273,51 @@ kactivities-frameworks
 
 # Partition
 partitionmanager
+
+## Netrunner repository packages
+audacious-winamp-theme
+aurorae-theme-carbon
+aurorae-theme-forman
+aurorae-theme-gnome3
+# aurorae-theme-metrodark
+# aurorae-theme-win7
+flatzebra
+burgerspace
+carbon-gtk2
+carbon-gtk3
+carbon-qt4
+carbon-qt5
+# desktop-theme-diamond
+desktop-theme-eclipse
+desktop-theme-enlightenment
+# desktop-theme-gnome-shell-kde
+# desktop-theme-orange-lighteneng
+# desktop-theme-sevenfield
+expanding-icons-taskmanager
+gltron
+gmusicbrowser-netrunner
+google-talkplugin
+kdeconnect-git
+kamoso
+kinfocenter
+kio-sysinfo
+netrunner-artwork-firefox-2015.06
+netrunner-artwork-skype-2015.06
+netrunner-artwork-sounds-2015.06
+netrunner-artwork-thunderbird-2015.06
+netrunner-flattr-icons
+netrunner-moka-icons
+netrunner-rolling-default-settings-2015.09
+netrunner-rolling-system-settings-2015.09
+# netrunner-rolling-wallpapers-2014-04
+netrunner-rolling-wallpapers-2014.09
+netrunner-rolling-wallpapers-2015.06
+netrunner-windows-cursors
+netrunner-whiteclassicia-cursors
+perl-gtk2-appindicator
+perl-gtk2-notify
+radiotray
+samba-mounter-frameworks-git
+vokoscreen
+zramswap
+

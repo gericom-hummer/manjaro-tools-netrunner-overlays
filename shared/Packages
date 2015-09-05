@@ -80,8 +80,6 @@ sudo
 syslinux
 
 ## Misc applications
-dmidecode
-gptfdisk
 lsof
 >openrc rsync-openrc
 >systemd rsync
@@ -96,7 +94,6 @@ xz
 zip
 
 ## Efi support (only x86_64)
->x86_64 gummiboot
 >x86_64 prebootloader
 >x86_64 refind-efi
 
@@ -105,7 +102,6 @@ btrfs-progs
 dmraid
 dosfstools
 ecryptfs-utils
-hfsprogs
 >openrc hdparm-openrc
 >systemd hdparm
 nilfs-utils
@@ -116,6 +112,7 @@ sdparm
 squashfs-tools
 smartmontools
 testdisk
+
 ## Network
 b43-fwcutter
 crda
