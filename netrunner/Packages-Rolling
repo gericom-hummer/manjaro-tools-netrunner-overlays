@@ -71,6 +71,53 @@ patchutils
 svn
 yaourt
 
+## Netrunner repository packages
+audacious-winamp-theme
+aurorae-theme-carbon
+aurorae-theme-forman
+aurorae-theme-gnome3
+# aurorae-theme-metrodark
+# aurorae-theme-win7
+flatzebra
+burgerspace
+carbon-gtk2
+carbon-gtk3
+carbon-qt4
+carbon-qt5
+# desktop-theme-diamond
+desktop-theme-eclipse
+desktop-theme-enlightenment
+# desktop-theme-gnome-shell-kde
+# desktop-theme-orange-lighteneng
+# desktop-theme-sevenfield
+expanding-icons-taskmanager
+gltron
+gmusicbrowser-netrunner
+google-talkplugin
+kdeconnect-git
+kamoso
+kinfocenter
+kio-sysinfo
+netrunner-artwork-firefox-2015.06
+netrunner-artwork-skype-2015.06
+netrunner-artwork-sounds-2015.06
+netrunner-artwork-thunderbird-2015.06
+netrunner-flattr-icons
+netrunner-moka-icons
+netrunner-rolling-default-settings-2015.09
+netrunner-rolling-system-settings-2015.09
+# netrunner-rolling-wallpapers-2014-04
+netrunner-rolling-wallpapers-2014.09
+netrunner-rolling-wallpapers-2015.06
+netrunner-windows-cursors
+netrunner-whiteclassicia-cursors
+perl-gtk2-appindicator
+perl-gtk2-notify
+radiotray
+samba-mounter-frameworks-git
+vokoscreen
+zramswap
+
 ## Fonts
 ttf-droid
 ttf-oxygen  # oficial KDE font
@@ -182,7 +229,6 @@ kdebase-kfind
 kdebase-konqueror
 kdegraphics-ksnapshot
 kdegraphics-okular
-kdenetwork-filesharing
 kdenlive
 kde-servicemenus-rootactions
 konsole
@@ -224,7 +270,7 @@ cdrkit           # for creation of DVD ISO images
 dvdauthor        # for creation of DVD
 dvgrab           # for firewire capture
 recordmydesktop  # for screen capture
-xine-ui         # for DVD preview
+xine-ui          # for DVD preview
 
 ## Optional dependencies for gwenview
 kimageformats     # support for dds, xcf, exr, psd, and more image formats
@@ -233,10 +279,12 @@ qt5-imageformats  # support for tiff, webp, and more image formats
 ## Applications
 audacious
 gimp
+handbrake
 imagewriter
 firefox-kde
 flashplugin
 #manjaro-settings-manager
+manjaro-welcome
 kcm-msm
 #netrunner-welcome
 pavucontrol
@@ -274,50 +322,4 @@ kactivities-frameworks
 # Partition
 partitionmanager
 
-## Netrunner repository packages
-audacious-winamp-theme
-aurorae-theme-carbon
-aurorae-theme-forman
-aurorae-theme-gnome3
-# aurorae-theme-metrodark
-# aurorae-theme-win7
-flatzebra
-burgerspace
-carbon-gtk2
-carbon-gtk3
-carbon-qt4
-carbon-qt5
-# desktop-theme-diamond
-desktop-theme-eclipse
-desktop-theme-enlightenment
-# desktop-theme-gnome-shell-kde
-# desktop-theme-orange-lighteneng
-# desktop-theme-sevenfield
-expanding-icons-taskmanager
-gltron
-gmusicbrowser-netrunner
-google-talkplugin
-kdeconnect-git
-kamoso
-kinfocenter
-kio-sysinfo
-netrunner-artwork-firefox-2015.06
-netrunner-artwork-skype-2015.06
-netrunner-artwork-sounds-2015.06
-netrunner-artwork-thunderbird-2015.06
-netrunner-flattr-icons
-netrunner-moka-icons
-netrunner-rolling-default-settings-2015.09
-netrunner-rolling-system-settings-2015.09
-# netrunner-rolling-wallpapers-2014-04
-netrunner-rolling-wallpapers-2014.09
-netrunner-rolling-wallpapers-2015.06
-netrunner-windows-cursors
-netrunner-whiteclassicia-cursors
-perl-gtk2-appindicator
-perl-gtk2-notify
-radiotray
-samba-mounter-frameworks-git
-vokoscreen
-zramswap
 
