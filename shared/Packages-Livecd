@@ -56,9 +56,9 @@ KERNEL-rt3562sta
 KERNEL-r8168
 
 # Proprietary Drivers (nvidia only)
->nonfree_default nvidia-utils
->nonfree_default KERNEL-nvidia
->nonfree_multilib lib32-nvidia-utils
+#>nonfree_default nvidia-utils
+#>nonfree_default KERNEL-nvidia
+#>nonfree_multilib lib32-nvidia-utils
 
 # Virtualbox Drivers
 >openrc virtualbox-guest-utils-openrc
