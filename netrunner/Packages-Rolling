@@ -65,6 +65,7 @@ m4
 make
 patch
 >multilib lib32-flex
+
 # Extra packages for AUR support
 git
 patchutils
@@ -105,7 +106,6 @@ netrunner-artwork-thunderbird-2015.06
 netrunner-flattr-icons
 netrunner-moka-icons
 netrunner-rolling-default-settings-2015.09
-netrunner-rolling-system-settings-2015.09
 # netrunner-rolling-wallpapers-2014-04
 netrunner-rolling-wallpapers-2014.09
 netrunner-rolling-wallpapers-2015.06
@@ -115,6 +115,7 @@ perl-gtk2-appindicator
 perl-gtk2-notify
 radiotray
 samba-mounter-frameworks-git
+simplemenu
 vokoscreen
 zramswap
 
@@ -284,9 +285,8 @@ imagewriter
 firefox-kde
 flashplugin
 #manjaro-settings-manager
-manjaro-welcome
 kcm-msm
-#netrunner-welcome
+netrunner-welcome
 pavucontrol
 p7zip
 screenfetch
