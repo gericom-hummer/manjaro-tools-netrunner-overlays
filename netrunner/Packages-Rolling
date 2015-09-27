@@ -218,8 +218,11 @@ oxygen-kde4
 sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 >multilib lib32-sni-qt
 libappindicator-gtk2
+>multilib lib32-libappindicator-gtk2
 libappindicator-gtk3
+>multilib lib32-libappindicator-gtk3
 libappindicator-sharp
+>multilib lib32-libappindicator-sharp
 perl-gtk2-trayicon
 
 ## KDE Applications
