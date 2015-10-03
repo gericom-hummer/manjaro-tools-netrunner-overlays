@@ -20,6 +20,7 @@ gcc-libs
 >multilib gcc-libs-multilib
 gettext
 glibc
+gptfdisk
 grep
 gzip
 inetutils

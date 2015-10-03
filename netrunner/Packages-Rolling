@@ -8,6 +8,7 @@
 networkmanager-dispatcher-ntpd
 >systemd openresolv
 openssh
+samba
 
 ## Libraries for Sound/Audio/Video
 ffmpeg
@@ -29,6 +30,7 @@ libcanberra-gstreamer
 libdvdcss
 manjaro-alsa
 manjaro-pulse
+pavucontrol
 phonon-qt5-gstreamer
 phonon-qt4-gstreamer
 python-pyqt4  # For pulseaudio gui
@@ -113,6 +115,7 @@ netrunner-rolling-wallpapers-2015.06
 # netrunner-welcome
 netrunner-windows-cursors
 netrunner-whiteclassicia-cursors
+perl-glib-object-introspection
 perl-gtk2-appindicator
 perl-gtk2-notify
 radiotray
@@ -296,7 +299,6 @@ firefox-kde
 flashplugin
 #manjaro-settings-manager
 kcm-msm
-pavucontrol
 p7zip
 screenfetch
 skype

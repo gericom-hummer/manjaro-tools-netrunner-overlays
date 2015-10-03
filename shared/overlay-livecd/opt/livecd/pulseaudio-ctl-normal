@@ -1,2 +1,0 @@
-#!/bin/bash
-(pulseaudio-ctl set 75) &

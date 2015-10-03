@@ -61,9 +61,9 @@ KERNEL-r8168
 #>nonfree_multilib lib32-nvidia-utils
 
 # Virtualbox Drivers
-#>openrc virtualbox-guest-utils-openrc
-#>systemd virtualbox-guest-utils
-#KERNEL-virtualbox-guest-modules
+# >openrc virtualbox-guest-utils-openrc
+# >systemd virtualbox-guest-utils
+# KERNEL-virtualbox-guest-modules
 
 # Xorg Packages
 libxvmc
@@ -72,5 +72,5 @@ libxvmc
 >multilib lib32-libxvmc
 
 # VMWare Support
-#open-vm-tools
-#xf86-input-vmmouse
+# open-vm-tools
+# xf86-input-vmmouse
