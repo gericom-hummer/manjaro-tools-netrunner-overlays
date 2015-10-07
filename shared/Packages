@@ -45,7 +45,7 @@ pacman
 pciutils
 pcmciautils
 perl
-procps-ng
+procps-ng-classic
 psmisc
 reiserfsprogs
 s-nail

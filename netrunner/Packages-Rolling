@@ -102,13 +102,13 @@ google-talkplugin
 kdeconnect-git
 kinfocenter
 kio-sysinfo
-netrunner-artwork-firefox-2015.09
+netrunner-artwork-firefox-2015.10
 netrunner-artwork-skype-2015.09
 netrunner-artwork-sounds-2015.06
-netrunner-artwork-thunderbird-2015.09
+netrunner-artwork-thunderbird-2015.10
 # netrunner-flattr-icons
 # netrunner-moka-icons
-netrunner-rolling-default-settings-2015.09
+netrunner-rolling-default-settings-2015.10
 # netrunner-rolling-wallpapers-2014-04
 netrunner-rolling-wallpapers-2014.09
 netrunner-rolling-wallpapers-2015.06
@@ -122,6 +122,7 @@ radiotray
 rar
 samba-mounter-frameworks-git
 simplemenu
+ttf-casper-typeface
 ttf-ms-fonts
 ttf-noto-sans-fonts
 vokoscreen
@@ -143,7 +144,6 @@ gnome-chess
 gnuchess
 frozen-bubble
 kbreakout
-kdiamond
 kmines
 kpatience
 kdegames-ksnakeduel
@@ -204,6 +204,7 @@ plasma-workspace
 powerdevil
 systemsettings
 # user-manager
+xembed-sni-proxy
 
 ## Themes
 gnome-icon-theme
@@ -297,11 +298,14 @@ handbrake
 imagewriter
 firefox-kde
 flashplugin
+grub-customizer
 #manjaro-settings-manager
 kcm-msm
 p7zip
+pidgin
 screenfetch
 skype
+streamtuner2
 >systemd systemd-kcm
 thunderbird-kde
 transmission-qt
@@ -331,6 +335,7 @@ kmediaplayer
 kactivities-frameworks
 
 # Partition
-partitionmanager
+# partitionmanager
+gparted
 
 
