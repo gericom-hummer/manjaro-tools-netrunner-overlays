@@ -5,10 +5,12 @@ xf86-input-elographics
 xf86-input-evdev
 xf86-input-joystick
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-void
 xf86-input-wacom
+
 
 ## Xorg Server and Graphics
 xorg-server
@@ -35,6 +37,7 @@ ttf-droid
 
 ## Applications
 inxi
+dmidecode # for inxi -m output
 powertop
 
 ## Sound
@@ -54,5 +57,5 @@ nss-mdns # NSS support for mDNS (optdepend for avahi)
 ## Misc
 >openrc consolekit-openrc
 >openrc displaymanager-openrc
->openrc upower-pm-utils
+>openrc pm-utils
 >openrc cgmanager-openrc

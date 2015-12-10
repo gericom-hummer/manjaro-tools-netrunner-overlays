@@ -6,12 +6,15 @@ coreutils
 >systemd cronie
 >openrc cryptsetup-openrc
 >systemd cryptsetup
+>openrc dbus-openrc
 >openrc device-mapper-openrc
 >systemd device-mapper
 >openrc dhcpcd-openrc
 >systemd dhcpcd
 diffutils
 e2fsprogs
+exfat-utils
+f2fs-tools
 file
 filesystem
 findutils
@@ -53,6 +56,7 @@ sed
 shadow
 sysfsutils
 >openrc eudev-systemdcompat
+>openrc netifrc
 >systemd systemd-sysvcompat
 tar
 texinfo
@@ -133,6 +137,8 @@ wireless_tools
 >openrc wpa_supplicant-openrc
 >systemd wpa_supplicant
 zd1211-firmware
+>openrc perl-mail-sendmail
+
 
 ## Power management
 >openrc acpid-openrc

@@ -15,9 +15,12 @@
 #LogFile     = /var/log/pacman.log
 #GPGDir      = /etc/pacman.d/gnupg/
 HoldPkg     = pacman glibc
+# If upgrades are available for these packages they will be asked for first
+SyncFirst    = manjaro-system
 #XferCommand = /usr/bin/curl -C - -f %u > %o
 #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
 #CleanMethod = KeepInstalled
+#UseDelta    = 0.7
 Architecture = auto
 
 # Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
@@ -29,23 +32,21 @@ Architecture = auto
 
 # Misc options
 #UseSyslog
-#UseDelta
+#Color
 #TotalDownload
-CheckSpace
+# We cannot check disk space from within a chroot environment
+#CheckSpace
 #VerbosePkgLists
 
-# PGP signature checking
-# NOTE: None of this will work without running `pacman-key --init` first.
-# The compiled in default is equivalent to the following line. This requires
-# you to locally sign and trust packager keys using `pacman-key` for them to be
-# considered valid.
-#SigLevel = Optional TrustedOnly
-# If you wish to check signatures but avoid local sign and trust issues, use
-# the following line. This will treat any key imported into pacman's keyring as
-# trusted.
-#SigLevel = Optional TrustAll
-# For now, off by default unless you read the above.
-SigLevel = Never
+# By default, pacman accepts packages signed by keys that its local keyring
+# trusts (see pacman-key and its man page), as well as unsigned packages.
+SigLevel    = Required DatabaseOptional
+LocalFileSigLevel = Optional
+#RemoteFileSigLevel = Required
+
+# NOTE: You must run `pacman-key --init` before first using pacman; the local
+# keyring can then be populated with the keys of all official Manjaro Linux
+# packagers with `pacman-key --populate archlinux manjaro`.
 
 #
 # REPOSITORIES
@@ -66,6 +67,30 @@ SigLevel = Never
 # uncommented to enable the repo.
 #
 
-[gfx-pkgs]
+# The testing repositories are disabled by default. To enable, uncomment the
+# repo name header and Include lines. You can add preferred servers immediately
+# after the header, and they will be used before the default mirrors.
+
+[netrunner-testing]
+SigLevel = Never
+Server = http://arch.netrunner.com/blueshell5-testing/$arch
+
+[netrunner]
+SigLevel = Never
+Server = http://arch.netrunner.com/blueshell5/$arch
+
+[core]
+Include = /etc/pacman.d/mirrorlist
+
+[extra]
+Include = /etc/pacman.d/mirrorlist
+
+[community]
+Include = /etc/pacman.d/mirrorlist
+
+# An example of a custom package repository.  See the pacman manpage for
+# tips on creating your own repositories.
+#[custom]
 #SigLevel = Optional TrustAll
-Server = file:///opt/livecd/pkgs
+#Server = file:///home/custompkgs
+

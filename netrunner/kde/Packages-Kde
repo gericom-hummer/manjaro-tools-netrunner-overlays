@@ -84,54 +84,43 @@ aurorae-theme-gnome3
 # aurorae-theme-win7
 flatzebra
 burgerspace
-carbon-gtk2
-carbon-gtk3
-carbon-qt4
-carbon-qt5
 # desktop-theme-diamond
 desktop-theme-eclipse
-desktop-theme-enlightenment
 # desktop-theme-gnome-shell-kde
 # desktop-theme-orange-lighteneng
 # desktop-theme-sevenfield
-expanding-icons-taskmanager
 gltron
 gmusicbrowser-netrunner
-gnome-breeze-git
 google-talkplugin
 kdeconnect-git
 kinfocenter
 kio-sysinfo
-netrunner-artwork-firefox-2015.10
-netrunner-artwork-skype-2015.09
-netrunner-artwork-sounds-2015.06
-netrunner-artwork-thunderbird-2015.10
-netrunner-desktop-containment
+netrunner-artwork-firefox
+netrunner-artwork-skype
+netrunner-artwork-thunderbird
 # netrunner-flattr-icons
 # netrunner-moka-icons
-netrunner-rolling-default-settings-2015.10
-netrunner-rolling-system-settings
-# netrunner-rolling-wallpapers-2014-04
-netrunner-rolling-wallpapers-2014.09
-netrunner-rolling-wallpapers-2015.06
+netrunner-rolling-default-settings
+netrunner-rolling-wallpapers-extra
 # netrunner-welcome
 netrunner-windows-cursors
-netrunner-whiteclassicia-cursors
 perl-glib-object-introspection
 perl-gtk2-appindicator
 perl-gtk2-notify
+pidgin-indicator
 rar
 samba-mounter-frameworks-git
 simplemenu
 ttf-casper-typeface
 ttf-ms-fonts
-ttf-noto-sans-fonts
 vokoscreen
 zramswap
 
 ## Fonts
-ttf-droid
-ttf-oxygen  # oficial KDE font
+noto-fonts  # default font
+#noto-fonts-cjk  # big package, ~76 mb compressed
+noto-fonts-emoji
+ttf-oxygen  # used for monospaced
 ttf-ubuntu-font-family
 cantarell-fonts
 ttf-lohit-fonts
@@ -206,7 +195,6 @@ plasma-workspace
 powerdevil
 systemsettings
 # user-manager
-xembed-sni-proxy
 
 ## Themes
 gnome-icon-theme
@@ -224,11 +212,8 @@ oxygen-kde4
 sni-qt  # A Qt plugin that enables tray icons in qt4 applications
 >multilib lib32-sni-qt
 libappindicator-gtk2
->multilib lib32-libappindicator-gtk2
 libappindicator-gtk3
->multilib lib32-libappindicator-gtk3
 libappindicator-sharp
->multilib lib32-libappindicator-sharp
 perl-gtk2-trayicon
 
 ## KDE Applications
@@ -239,6 +224,7 @@ ffmpegthumbs
 icoutils
 k3b
 kate
+kamoso
 kcalc
 kdebase-kdepasswd
 kdebase-keditbookmarks
@@ -297,7 +283,6 @@ qt5-imageformats  # support for tiff, webp, and more image formats
 ## Applications
 audacious
 cantata
-cheese
 gimp
 handbrake
 imagewriter
@@ -346,5 +331,3 @@ kactivities-frameworks
 # Partition
 # partitionmanager
 gparted
-
-
