@@ -12,7 +12,6 @@ samba
 
 ## Libraries for Sound/Audio/Video
 ffmpeg
-flac123
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -38,7 +37,6 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 qt-gstreamer
-vorbis-tools
 
 ## Connect Packages
 udiskie
@@ -68,7 +66,6 @@ m4
 make
 patch
 >multilib lib32-flex
-
 # Extra packages for AUR support
 git
 patchutils
@@ -92,7 +89,6 @@ desktop-theme-eclipse
 gltron
 gmusicbrowser-netrunner
 google-talkplugin
-kdeconnect-git
 kinfocenter
 kio-sysinfo
 netrunner-artwork-firefox
@@ -121,12 +117,7 @@ noto-fonts  # default font
 #noto-fonts-cjk  # big package, ~76 mb compressed
 noto-fonts-emoji
 ttf-oxygen  # used for monospaced
-ttf-ubuntu-font-family
 cantarell-fonts
-ttf-lohit-fonts
-adobe-source-serif-pro-fonts
-adobe-source-sans-pro-fonts
-adobe-source-code-pro-fonts
 
 ## Games
 steam-manjaro
@@ -198,10 +189,10 @@ systemsettings
 
 ## Themes
 gnome-icon-theme
-gnome-icon-theme-extras
 >systemd plymouth-theme-netrunner
 
 ## GTK Themes
+breeze-gtk
 gnome-themes-standard # Adwaita theme
 
 ## Support for KDE4 applications theming
@@ -243,7 +234,6 @@ marble
 gwenview
 print-manager
 skanlite
-
 ## KDE PIM
 akonadiconsole
 kaddressbook
@@ -329,5 +319,5 @@ kmediaplayer
 kactivities-frameworks
 
 # Partition
-# partitionmanager
-gparted
+#gparted
+partitionmanager-dev
