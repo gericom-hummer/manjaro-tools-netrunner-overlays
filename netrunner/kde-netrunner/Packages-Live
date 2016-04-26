@@ -1,3 +1,18 @@
+### General Packages
+
+>openrc manjaro-live-openrc
+>systemd manjaro-live-systemd
+manjaro-live-skel		# live skel
+manjaro-cli-installer
+
+calamares			# new GUI installer of manjaro
+#calamares-dev			# new GUI installer of manjaro - kpmcore
+#thus
+#thus-dev
+#gparted
+
+### Driver set for fast live-session bootup (optional)
+
 ## Xorg Drivers
 xf86-video-apm
 xf86-video-ark
@@ -42,30 +57,23 @@ KERNEL-broadcom-wl
 KERNEL-rt3562sta
 KERNEL-r8168
 
-## Proprietary Drivers
->nonfree_default catalyst-utils
->nonfree_default KERNEL-catalyst
->nonfree_default nvidia-utils
->nonfree_default KERNEL-nvidia
->nonfree_default nvidia-340xx-utils
->nonfree_default KERNEL-nvidia-340xx
->nonfree_default nvidia-304xx-utils
->nonfree_default KERNEL-nvidia-304xx
->nonfree_multilib lib32-catalyst-utils
->nonfree_multilib lib32-nvidia-utils
->nonfree_multilib lib32-nvidia-304xx-utils
->nonfree_multilib lib32-nvidia-340xx-utils
+## Proprietary Drivers (catalyst and nvidia only)
+# by default disabled
+#>nonfree_default catalyst-utils
+#>nonfree_default KERNEL-catalyst
+#>nonfree_default nvidia-utils
+#>nonfree_default KERNEL-nvidia
+#>nonfree_multilib lib32-catalyst-utils
+#>nonfree_multilib lib32-nvidia-utils
 
 ## Virtualbox Drivers
->openrc virtualbox-guest-utils-openrc
->systemd virtualbox-guest-utils
-KERNEL-virtualbox-guest-modules
+# by default disabled
+#>openrc virtualbox-guest-utils-openrc
+#>systemd virtualbox-guest-utils
+#KERNEL-virtualbox-guest-modules
 
 ## Xorg Packages
-libxaw
-libxpm
 libxvmc
-pangox-compat
 
 ## Xorg x86_64 Packages
 >multilib lib32-libxvmc
