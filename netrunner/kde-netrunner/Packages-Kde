@@ -295,8 +295,8 @@ imagewriter
 firefox-kde
 flashplugin
 grub-customizer
-#manjaro-settings-manager
 manjaro-settings-manager-kcm
+manjaro-settings-manager-kde-notifier
 p7zip
 pidgin
 screenfetch
