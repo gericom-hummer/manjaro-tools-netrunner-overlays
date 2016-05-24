@@ -81,12 +81,15 @@ SigLevel = Never
 Server = http://arch.netrunner.com/blueshell5/$arch
 
 [core]
+SigLevel = PackageRequired
 Include = /etc/pacman.d/mirrorlist
 
 [extra]
+SigLevel = PackageRequired
 Include = /etc/pacman.d/mirrorlist
 
 [community]
+SigLevel = PackageRequired
 Include = /etc/pacman.d/mirrorlist
 
 # An example of a custom package repository.  See the pacman manpage for
