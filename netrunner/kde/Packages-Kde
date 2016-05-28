@@ -98,8 +98,9 @@ netrunner-settings-thunderbird
 # netrunner-flattr-icons
 # netrunner-moka-icons
 netrunner-rolling-default-settings
-netrunner-extra-wallpapers
-netrunner-extra-wallpapers-arti-one
+netrunner-wallpapers-extrapack-1
+netrunner-wallpapers-extrapack-2
+netrunner-wallpapers-extrapack-arti-one
 # netrunner-welcome
 netrunner-windows-cursors
 perl-glib-object-introspection
