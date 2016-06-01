@@ -413,7 +413,7 @@ load_profile_config(){
 
 	[[ -z ${plymouth_theme} ]] && plymouth_theme="manjaro-elegant"
 
-	[[ -z ${password} ]] && password=""
+	[[ -z ${password} ]] && password="manjaro"
 
 	if [[ -z ${addgroups} ]];then
 		addgroups="video,power,disk,storage,optical,network,lp,scanner,wheel"
